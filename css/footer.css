@@ -193,9 +193,7 @@ footer {
     align-items: center;
     justify-content: space-around;
   }
-  .footer_hours {
-    /* width: 50%; */
-  }
+
   .footer_pharm {
     width: 50%;
   }
