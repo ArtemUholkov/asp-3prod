@@ -139,11 +139,7 @@ footer {
   margin-bottom: 15px;
 }
 .footer_pharm {
-  display: flex;
-  flex-direction: column;
-
-  max-width: 244px;
-  align-items: flex-start;
+  display: none;
 }
 .rigt-side-m {
   margin-bottom: 24px;

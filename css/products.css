@@ -132,9 +132,22 @@
   width: 139px;
   height: auto;
   position: relative;
-  right: 80px;
+  right: 0;
   transition: all 0.5s;
 }
+
+@media (max-width: 1920px) {
+  .abs_img_text_wrap_img {
+    right: 0;
+  }
+}
+
+@media (max-width: 1750px) {
+  .abs_img_text_wrap_img {
+    right: 80px;
+  }
+}
+
 .products_product:hover .abs_img_text_wrap_img {
   transform: rotate(-15deg);
   right: -20px;
