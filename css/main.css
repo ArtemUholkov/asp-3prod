@@ -128,6 +128,12 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 78px;
+  padding-right: 350px;
+}
+@media (max-width: 1530px) {
+  .main_images_content {
+    padding-right: 150px;
+  }
 }
 .bottle_price_wrapper {
   display: flex;
@@ -145,7 +151,7 @@ h1 {
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 15px;
-  opacity: 0;
+  opacity: 0 !important;
   transition: all 0.3s;
 }
 .bottle_price {
@@ -157,7 +163,7 @@ h1 {
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 14px;
-  opacity: 0;
+  opacity: 0 !important;
   transition: all 0.3s;
 }
 .bottle_img {
