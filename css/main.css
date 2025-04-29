@@ -133,11 +133,11 @@ h1 {
   align-items: center;
   justify-content: center;
   gap: 78px;
-  padding-right: 350px;
+  /* padding-right: 350px; */
 }
 @media (max-width: 1530px) {
   .main_images_content {
-    padding-right: 150px;
+    /* padding-right: 150px; */
   }
 }
 .bottle_price_wrapper {
@@ -187,7 +187,9 @@ h1 {
 .button_on_mobile {
   display: none;
 }
-
+.main_productt {
+  width: 600px !important;
+}
 @media (max-width: 1880px) {
   .main_wrapper {
     padding-left: 50px;

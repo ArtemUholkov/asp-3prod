@@ -228,7 +228,7 @@
 }
 @media (max-width: 1060px) {
   .products_product {
-    width: 327px;
+    width: 327px !important;
     height: 500px;
   }
   .pr_slide {
@@ -298,4 +298,3 @@
   padding-top: 24px;
   text-align: center;
 }
-
